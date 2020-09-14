@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {LayoutComponent} from './layout.component';
 import {HeaderComponent} from './header/header.component';
 import {CommonModule} from '@angular/common';
-import {AppRoutingModule} from '../app-routing.module';
+import {AppRoutingModule} from './routs/app-routing.module';
 
 @NgModule({
   declarations: [LayoutComponent, HeaderComponent],
@@ -10,4 +10,5 @@ import {AppRoutingModule} from '../app-routing.module';
   exports: [LayoutComponent]
 })
 export class LayoutModule {
+
 }
