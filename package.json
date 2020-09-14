@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start:proxy": "ng serve --proxy-config proxy.conf.js",
+    "start:proxy:mock:server": "concurrently --kill-others \"npm run start:proxy:mock:server\" \"npm run start:proxy",
+    "format:lint": "ng lint --fix"
   },
   "private": true,
   "dependencies": {

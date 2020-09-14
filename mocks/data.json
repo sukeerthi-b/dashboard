@@ -1,0 +1,32 @@
+{
+  "bookmarks": [
+    {
+      "id": 1,
+      "actualUrl": "https://google.com",
+      "shortUrl": "/ggl",
+      "description": "test",
+      "title": "google",
+      "source": "SG"
+    },
+    {
+      "id": 2,
+      "actualUrl": "https://facebook.com",
+      "shortUrl": "/fac",
+      "description": "test",
+      "title": "google",
+      "source": "SG"
+    }
+  ],
+  "groups": [
+    {
+      "id": 4,
+      "name": "ITEC",
+      "description": "itec"
+    },
+    {
+      "id": 5,
+      "name": "User",
+      "description": "user level"
+    }
+  ]
+}
