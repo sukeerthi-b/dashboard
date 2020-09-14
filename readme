@@ -3,11 +3,18 @@
 	npm install -g @angular/cli
 >go to workspace and create project
 	npm new dashboard
->go to eclipse-> marketspace-> add anuglar plugin	
->import project	
+>go to eclipse-> marketspace-> add anuglar plugin
+>import project
 >npm install
 >ng serve
+>ng generate component headercomp
 
 Note: faced one error,ps1 cannot be loaded because running scripts is disabled on this system
 Fix: run/windows powershell -> run as administrator -> execute below commad
 	>Set-ExecutionPolicy unrestricted
+
+>Run with mock
+ npm run start:proxy:mock:server
+
+>Run test cases coverage rate
+ng test --project=dashboard

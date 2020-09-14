@@ -12,6 +12,18 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/home/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/home/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/stream/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/stream/tsconfig.spec.json"
     }
 ]
 }
